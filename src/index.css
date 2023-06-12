@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f2f2f2;
+  text-align: center;
+}
+
+main {
+  width: 90%;
+  margin: 2rem auto;
+}
+
+h1 {
+  font-size: 64px;
+}
+
+button {
+  padding: 0.3rem 1rem;
+  border: none;
+  border-radius: 0.3rem;
+  background-color: royalblue;
+  color: #fff;
+  cursor: pointer;
+  outline: none;
+}

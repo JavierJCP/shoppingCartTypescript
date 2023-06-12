@@ -1,0 +1,43 @@
+.cart {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 200px;
+  background-color: #fff;
+  padding: 1rem 0;
+  display: none;
+}
+
+.cart__list {
+  list-style: none;
+  width: 100%;
+  padding-bottom: 0.5rem;
+}
+
+.cart__item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  border-bottom: 1px solid gray;
+  padding-bottom: 0.3rem;
+}
+
+.cart__icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  background-color: salmon;
+  cursor: pointer;
+  color: #fff;
+  border-radius: 50%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 9;
+}
+
+.cart__checkbox:checked ~ .cart {
+  display: block;
+}
